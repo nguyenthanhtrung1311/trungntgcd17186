@@ -3,10 +3,10 @@
   <title>Database Test</title>
  </head>
  <body>
- <?php echo '<p>Hello Teacher Ho Van Phi, This is my cloud app</p>'; 
+ <?php echo '<h1>Hello Teacher Ho Van Phi, This is my cloud app</h1>'; 
  
  ?>
- <h1>My Infomation</h1>
+ <h2>My Infomation</h2>
  <p>Name: Nguyen Thanh Trung</p>
  <p>ID: GCD17186</p>
  <p>Class: GCD0818</p>
