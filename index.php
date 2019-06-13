@@ -10,10 +10,14 @@
  <style>
  	#A {
  	 	float: left;
+ 	 	border-style: : solid;
+		border-width: 1px;
+		border-color: silver;
  	 }
 
  	#B {
- 	 	float: left;
+ 	 	float: right;
+ 	 	margin-top: -200px;
  	 }
  </style>
  <h2>My Infomation</h2>
