@@ -21,12 +21,12 @@
  	 	margin-top: -130px;
  	 }
  	#B input[type="submit"] {
- 		font-size: 3em;
+ 		font-size: 0.9em;
     	color: #fff;
    	 	background-color: #403b37;
    	 	border: none;
-    	padding: 5px;
-   	 	width: 40%;
+    	padding: 2px;
+   	 	width: 100%;
    		outline: none;
    	 	text-align: center;
  	}
