@@ -20,6 +20,16 @@
  	 	margin-left: 20px;
  	 	margin-top: -130px;
  	 }
+ 	#B input[type="submit"] {
+ 		font-size: 0.9em;
+    	color: #fff;
+   	 	background-color: #403b37;
+   	 	border: none;
+    	padding: 2px;
+   	 	width: 30%;
+   		outline: none;
+   	 	text-align: center;
+ 	}
  </style>
  <h2>My Infomation</h2>
  <p>Name: Nguyen Thanh Trung</p>
@@ -31,13 +41,13 @@
  </div>
  
  <div id="B">
- 	<a href="ConnectToDB.php" target="_blank" >Connect database</a>
+ 	<a href="ConnectToDB.php" target="_blank" ><input type="submit" value="Connect Database" ></a>
      <br/>
-     <a href="InsertData.php" target="_blank" >Insert data to the database</a>
+     <a href="InsertData.php" target="_blank" ><input type="submit" value="Insert data to the database" ></a>
      <br/>
-     <a href="UpdateData.php" target="_blank" >Update data to the database</a> 
+     <a href="UpdateData.php" target="_blank" ><input type="submit" value="Update data to the database" ></a> 
     <br/>
-    <a href="DeleteData.php" target="_blank" >Delete data to the database</a> 
+    <a href="DeleteData.php" target="_blank" ><input type="submit" value="Delete data to the database" ></a> 
 
  </div>
 
