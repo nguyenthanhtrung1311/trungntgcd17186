@@ -3,9 +3,16 @@
   <title>Database Test</title>
  </head>
  <body>
- <?php echo '<p>Hello This Is First Cloud App</p>'; 
+ <?php echo '<p>Hello Teacher Ho Van Phi, This is my cloud app</p>'; 
  
- ?> 
+ ?>
+ <h1>My Infomation</h1>
+ <p>Name: Nguyen Thanh Trung</p>
+ <p>ID: GCD17186</p>
+ <p>Class: GCD0818</p>
+ <p>My Full body photo</p>
+ <img src="trungcloud.jpg" alt="" height="1350" width="1350"> 
+
      <a href="ConnectToDB.php" target="_blank" >Connect database</a>
      <br/>
      <a href="InsertData.php" target="_blank" >Insert data to the database</a>
