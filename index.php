@@ -21,15 +21,18 @@
  	 	margin-top: -130px;
  	 }
  	#B input[type="submit"] {
- 		font-size: 0.9em;
+ 		font-size: 3em;
     	color: #fff;
    	 	background-color: #403b37;
    	 	border: none;
-    	padding: 2px;
-   	 	width: 30%;
+    	padding: 5px;
+   	 	width: 40%;
    		outline: none;
    	 	text-align: center;
  	}
+ 	#B input[type="submit"]:hover {
+		background: #FF00CC;
+	}
  </style>
  <h2>My Infomation</h2>
  <p>Name: Nguyen Thanh Trung</p>
