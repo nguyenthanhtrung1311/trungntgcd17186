@@ -18,7 +18,7 @@
  	#B {
  	 	float: left;
  	 	margin-left: 20px;
- 	 	margin-top: -150px;
+ 	 	margin-top: -130px;
  	 }
  </style>
  <h2>My Infomation</h2>
