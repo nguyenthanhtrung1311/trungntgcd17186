@@ -16,7 +16,8 @@
  	 }
 
  	#B {
- 	 	float: right;
+ 	 	float: left;
+ 	 	margin-left: 20px;
  	 	margin-top: -200px;
  	 }
  </style>
