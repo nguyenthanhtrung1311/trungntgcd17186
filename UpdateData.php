@@ -14,12 +14,12 @@ echo "Update database!";
 
 if (empty(getenv("DATABASE_URL"))){
     echo '<p>The DB does not exist</p>';
-    $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=mydb', 'postgres', '123456');
+    $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=Heroku', 'postgres', '123456');
 }  else {
      
    $db = parse_url(getenv("DATABASE_URL"));
    $pdo = new PDO("pgsql:" . sprintf(
-        "host=ec2-174-129-240-67.compute-1.amazonaws.com;port=5432;user=wrflrxtavasvqh;password=fbfef36049fbd28f1200e3a775a389e014838e86522765e67782f9cf7a3f516b;dbname=d3mmhribgmc6bf",
+        "host=ec2-54-83-36-37.compute-1.amazonaws.com;port=5432;user=fsyfbnelcoqxzt;password=85d6fb4e290a64c0bd8e71e0648dc2b8917b1d20bdb812fd5bcf0feb17fe648e;dbname=df10272s944emd",
         $db["host"],
         $db["port"],
         $db["user"],
