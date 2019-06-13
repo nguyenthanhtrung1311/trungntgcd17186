@@ -11,7 +11,7 @@
  <p>ID: GCD17186</p>
  <p>Class: GCD0818</p>
  <p>My Full body photo</p>
- <img src="trungcloud.jpg" alt="" height="1350" width="1350"> 
+ <img src="trungcloud.jpg" alt="" height="350" width="350"> 
 
      <a href="ConnectToDB.php" target="_blank" >Connect database</a>
      <br/>
